@@ -369,6 +369,10 @@ body{
   margin-block-end: 20px;
 }
 
+.about-content .btn{
+  margin-block-end: 2rem;
+}
+
 .stats-list {
   display: grid;
   gap: 30px;
