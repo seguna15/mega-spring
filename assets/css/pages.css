@@ -372,8 +372,31 @@ body{
 .about-content .section-text:not(:last-child),
 .about-bottom-title { margin-bottom: 2rem;}
 
+/*-----------------------------------*\
+  #FEATURES
+\*-----------------------------------*/
+.features{ text-align: center;}
 
+.features .section-title { text-align: center;}
 
+.features-list {
+  display: grid;
+  gap: 4rem;
+}
+.features .features-card{
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius-12);
+}
+.features .card-icon {
+  color: var(--winter-sky)  ;
+  font-size: 6rem;
+  width: max-content;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.features .card-title{ margin-block-end: 1.2rem; }
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
@@ -545,8 +568,6 @@ textarea{
     margin-inline-start: auto;
   }
 
- 
-
   /*-----------------------------------*\
     FOOTER
   \*-----------------------------------*/
@@ -585,8 +606,6 @@ textarea{
     align-items: center;
     gap: 3rem;
   }
-
-  
 
   /*-----------------------------------*\
     FOOTER
@@ -672,7 +691,18 @@ textarea{
   }
 
   .contact .container .section-title { grid-column: 1/3;}
+  
+  /*-----------------------------------*\
+      FEATURES
+  \*-----------------------------------*/
 
+  .features .features-list { grid-template-columns: repeat(3, 1fr); }
+
+  .features .features-card{
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+  }
   /*-----------------------------------*\
     FOOTER
   \*-----------------------------------*/

@@ -29,7 +29,7 @@ navbarLinks.forEach( el => {
         navbar.classList.toggle("active");
         overlay.classList.toggle("active");
     })
-})
+}) 
 
 /**
  * header & go top active when windows scroll down to 400px
