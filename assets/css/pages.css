@@ -421,13 +421,13 @@ body{
 }
 
 .faq-bottom-link > a {
-  color: var(--ksu-purple);
+  color: var(--honey-flower);
   text-decoration: underline;
   margin-top: .5rem;
   display: inline-block;
 }
 
-.faq-bottom-link > a:is(:hover, :focus) { color: var(--amaranth-purple); }
+.faq-bottom-link > a:is(:hover, :focus) { color: var(--east-bay); }
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
