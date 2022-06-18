@@ -346,7 +346,7 @@ body{
 .hero-content { margin-block-end: 50px;}
 
 .hero-subtitle{
-  color: var(--chrome-yellow);
+  color: var(--east-bay);
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-7);
   margin-block-end: 15px;
