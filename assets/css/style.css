@@ -184,6 +184,7 @@ body{
   margin-block-end: 60px;
   max-width: max-content;
   margin-inline: auto;
+  text-align: center;
 }
 
 .section-subtitle{
@@ -192,6 +193,7 @@ body{
   margin-block-end: 1rem;
   max-width: max-content;
   margin-inline: auto;
+  text-align: center;
 }
 
 .underline{ position: relative; }
@@ -437,7 +439,7 @@ body{
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
-.features .section-title { text-align: center; }
+.features :is( .section-subtitle, .section-title) { text-align: center; }
 
 .features-list > li:first-child { margin-block-end: 30px;}
 
@@ -836,7 +838,7 @@ body{
     gap: 30px;
   }
 
-  .features .section-title { grid-column: 1 / 4; }
+  .features :is( .section-subtitle, .section-title)  { grid-column: 1 / 4; }
 
   .features-banner {
     margin-block: 0;
