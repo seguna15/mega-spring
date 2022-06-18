@@ -143,8 +143,16 @@ body{
 \*-----------------------------------*/
 .container { padding-inline: 15px;}
 
+.h1,
 .h2,
-.h3{ font-family: var(--ff-source-sans-pro); }
+.h3,
+.h4{ font-family: var(--ff-source-sans-pro); }
+
+.h1 { font-size: var(--fs-1); }
+.h2 { font-size: var(--fs-2); }
+.h3 { font-size: var(--fs-3); }
+.h4 { font-size: var(--fs-5); }
+
 
 .btn{
   background-image: var(--gradient-1);
@@ -429,6 +437,8 @@ body{
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
+.features .section-title { text-align: center; }
+
 .features-list > li:first-child { margin-block-end: 30px;}
 
 .features-card {
