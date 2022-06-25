@@ -47,3 +47,21 @@ window.addEventListener("scroll", () => {
         goTopBtn.classList.remove('active');
     }
 });
+
+/*
+* Hide and Unhide Home Text
+*/
+
+const hiddenText = document.querySelectorAll("[data-hidden-text]");
+const hideButton = document.querySelector("[data-hide-text]");
+
+hideButton.addEventListener('click', () => {
+    if(hideButton.innerHTML === 'Show More'){
+        hideButton.innerHTML = 'Show Less'
+    }else{
+        hideButton.innerHTML = 'Show More'
+    }
+    hiddenText.forEach(el => {
+        el.classList.toggle('hidden');
+    })
+});

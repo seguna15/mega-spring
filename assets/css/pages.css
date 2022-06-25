@@ -375,12 +375,33 @@ body{
 .about-bottom-title { margin-bottom: 2rem;}
 
 .about-bottom-title { text-align: center; }
+
+.about-list{
+  font-size: 1.6rem;
+  list-style: none;
+}
+
+.about-list > .about-list-item{
+  margin-block-end: 1rem;
+}
+
+.about-list > .about-list-item::before{
+  content: "\2713"; 
+  color: var(--chrome-yellow);
+  font-weight: var(--fw-700);
+  display: inline-block;
+  width: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  
+}
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
 .features{ text-align: center;}
 
 .features .section-title { text-align: center;}
+.features .section-text{ margin-block: 4rem;}
 
 .features-list {
   display: grid;
@@ -727,12 +748,13 @@ textarea{
       FEATURES
   \*-----------------------------------*/
 
-  .features .features-list { grid-template-columns: repeat(3, 1fr); }
+  .features .features-list { grid-template-columns: repeat(2, 1fr); }
 
   .features .features-card{
     padding: 2rem;
     box-shadow: var(--shadow);
     border-radius: var(--radius-12);
+    height: 40rem;
   }
   /*-----------------------------------*\
     FOOTER

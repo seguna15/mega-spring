@@ -380,7 +380,9 @@ body{
   font-size: var(--fs-8);
   margin-block-end: 20px;
 }
-
+.about-text:is(.hidden){
+  display: none;
+}
 .about-content .btn{
   margin-block-end: 2rem;
 }
