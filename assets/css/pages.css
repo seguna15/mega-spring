@@ -759,8 +759,8 @@ textarea{
   /*-----------------------------------*\
     FOOTER
   \*-----------------------------------*/
-  .footer-top .container { grid-template-columns: repeat(4, 1fr); }
-  .footer-brand { grid-column: 1/ 5;}
+  .footer-top .container { grid-template-columns: repeat(3, 1fr); }
+  .footer-brand { grid-column: 1/ 4;}
 
   .footer-brand .text { max-width: 45ch;}
 
@@ -809,7 +809,7 @@ textarea{
   /*-----------------------------------*\
     FOOTER
   \*-----------------------------------*/
-  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr;}
+  .footer-top .container { grid-template-columns: 1fr 0.5fr 0.5fr 1fr;}
   .footer-brand { grid-column: auto;}
 
 }
