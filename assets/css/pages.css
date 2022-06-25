@@ -578,12 +578,12 @@ textarea{
   position: fixed;
   bottom: 0;
   right: 1.5rem;
-  background-color: var(--winter-sky);
+  background-color: var(--honey-flower);
   color: var(--white);
   font-size: 2rem;
   padding: 1.4rem;
   border-radius: var(--radius-4);
-  box-shadow: -3px 3px 15px var(--winter-sky_50);
+  box-shadow: -3px 3px 15px var(--royal-blue-dark);
   z-index: 2;
   visibility: hidden;
   opacity: 0;
