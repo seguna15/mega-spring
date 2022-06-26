@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 <body id="top">
     
@@ -21,12 +22,12 @@
             <div class="overlay" data-overlay></div>
 
             <a href="index.html">
-                <h1 class="logo">Mega Spring</h1>
+                <img class="logo" src="./assets/images/logo.png" alt="">
             </a>
             
             <nav class="navbar" data-navbar>
                 <div class="navbar-top">
-                    <a href="index.html" class="logo">Mega Spring</a>
+                    <a href="index.html"><img class="logo" src="./assets/images/logo.png" alt=""></a>
                     <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
                         <ion-icon name="close-outline"></ion-icon>
                     </button>
@@ -244,42 +245,53 @@
                     <p class="h4 section-subtitle">What out clients have to say about us.</p>
                     <h2 class="h3 section-title underline">Testimonials</h2>
 
-                    <ul class="testimonials-list">
+                    <div class="swiper">
+                        <ul class="testimonials-list swiper-wrapper">
 
-                        <li class="testimonial-card">
-                            <h4 class="h4">Sally </h4> <span>Nurse</span>
-                            <p class="testimonial-text">
-                                <q>
-                                   Mega Spring has invested in me. I started work and needed additional training to continue this, they booked and paid for it. I’m so pleased. No other agency has done this for me before.
-                                </q> 
-                            </p>
-                        </li>
+                            <li class="testimonial-card swiper-slide">
+                                <h4 class="h4">Sally <span>- Nurse</span></h4>
+                                <p class="testimonial-text">
+                                    <q>
+                                        Mega Spring has invested in me. I started work and needed additional training to
+                                        continue this, they booked and paid for it. I’m so pleased. No other agency has
+                                        done this for me before.
+                                    </q>
+                                </p>
+                            </li>
 
-                        <li class="testimonial-card">
-                            <p class="testimonial-text">
-                                <q>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit molestiae.
-                                </q> <span>-Andre Smith</span>
-                            </p>
-                        </li>
+                            <li class="testimonial-card swiper-slide">
+                                <p class="testimonial-text">
+                                    <q>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci
+                                        temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit
+                                        molestiae.
+                                    </q> <span>-Andre Smith</span>
+                                </p>
+                            </li>
 
-                        <li class="testimonial-card">
-                            <p class="testimonial-text">
-                                <q>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit molestiae.
-                                </q> <span>-Andre Smith</span>
-                            </p>
-                        </li>
+                            <li class="testimonial-card swiper-slide">
+                                <p class="testimonial-text">
+                                    <q>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci
+                                        temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit
+                                        molestiae.
+                                    </q> <span>-Andre Smith</span>
+                                </p>
+                            </li>
 
-                        <li class="testimonial-card">
-                            <p class="testimonial-text">
-                                <q>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit molestiae.
-                                </q> <span>-Andre Smith</span>
-                            </p>
-                        </li>
-                        
-                    </ul>
+                            <li class="testimonial-card swiper-slide">
+                                <p class="testimonial-text">
+                                    <q>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo adipisci
+                                        temporibus officia doloribus quo, vero amet? Tenetur obcaecati impedit
+                                        molestiae.
+                                    </q> <span>-Andre Smith</span>
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    
 
                 </div>
             </section>
@@ -427,10 +439,12 @@
         <ion-icon name="arrow-up-outline"></ion-icon>
     </a>
     <!-- END GO TO TOP-->
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+
 
 </body>
 </html>

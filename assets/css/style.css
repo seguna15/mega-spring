@@ -253,9 +253,7 @@ body{
 }
 
 .logo{
-  color: var(--color);
-  font-family: var(--ff-source-sans-pro);
-  font-size: var(--fs-3);
+  height: 5rem;
 }
 
 .nav-open-btn{
@@ -533,17 +531,15 @@ body{
 
 .testimonials :is(.section-subtitle, .section-title) { text-align: center;}
 
-.testimonials-list{
-  display: grid;
-  gap: 3rem;
-}
-
 .testimonial-card {
   padding: 2rem;
   box-shadow: var(--shadow);
   border-radius: var(--radius-12);
 }
-
+.testimonial-card .h4 > span{
+  display: inline;
+  font-size: var(--fs-7);
+}
 .testimonial-text { text-align: justify; }
 
 .testimonial-text > span {
@@ -571,6 +567,9 @@ body{
 .footer-brand { margin-block-end: 30px;}
 
 .footer-brand .logo {
+  color: var(--color);
+  font-family: var(--ff-source-sans-pro);
+  font-size: var(--fs-3);
   font-weight: var(--fw-700);
   margin-block-end: 1.5rem;
 }

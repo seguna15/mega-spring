@@ -253,9 +253,7 @@ body{
 }
 
 .logo{
-  color: var(--color);
-  font-family: var(--ff-source-sans-pro);
-  font-size: var(--fs-3);
+  height: 5rem;
 }
 
 .nav-open-btn{
@@ -500,9 +498,13 @@ textarea{
 .footer-brand { margin-block-end: 30px;}
 
 .footer-brand .logo {
+  color: var(--color);
+  font-family: var(--ff-source-sans-pro);
+  font-size: var(--fs-3);
   font-weight: var(--fw-700);
   margin-block-end: 1.5rem;
 }
+
 
 .footer-brand .text{
   font-size: var(--fs-8);
